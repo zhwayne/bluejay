@@ -6,7 +6,7 @@
 //  Copyright © 2018 Steamclock Software. All rights reserved.
 //
 
-import Bluejay
+import BluejayKit
 import UIKit
 
 class ScanViewController: UITableViewController {

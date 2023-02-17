@@ -6,7 +6,7 @@
 //  Copyright © 2019 Steamclock Software. All rights reserved.
 //
 
-import Bluejay
+import BluejayKit
 import Foundation
 
 struct HeartRateMeasurement: Sendable {

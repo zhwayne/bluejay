@@ -6,7 +6,7 @@
 //  Copyright © 2019 Steamclock Software. All rights reserved.
 //
 
-import Bluejay
+import BluejayKit
 import UIKit
 
 // should only ever be one of these, keep a local reference to it so we can implement a general

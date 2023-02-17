@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8C70F741E1C22850006CF58"
-               BuildableName = "Bluejay.framework"
-               BlueprintName = "Bluejay"
+               BuildableName = "BluejayKit.framework"
+               BlueprintName = "BluejayKit"
                ReferencedContainer = "container:Bluejay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B8C70F741E1C22850006CF58"
+            BuildableName = "BluejayKit.framework"
+            BlueprintName = "BluejayKit"
+            ReferencedContainer = "container:Bluejay.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -39,17 +48,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B8C70F741E1C22850006CF58"
-            BuildableName = "Bluejay.framework"
-            BlueprintName = "Bluejay"
-            ReferencedContainer = "container:Bluejay.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,13 +63,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8C70F741E1C22850006CF58"
-            BuildableName = "Bluejay.framework"
-            BlueprintName = "Bluejay"
+            BuildableName = "BluejayKit.framework"
+            BlueprintName = "BluejayKit"
             ReferencedContainer = "container:Bluejay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,8 +79,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8C70F741E1C22850006CF58"
-            BuildableName = "Bluejay.framework"
-            BlueprintName = "Bluejay"
+            BuildableName = "BluejayKit.framework"
+            BlueprintName = "BluejayKit"
             ReferencedContainer = "container:Bluejay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
