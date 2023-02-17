@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = 'Bluejay'
+  spec.name = 'BluejayKit'
   spec.version = '0.8.9'
   spec.license = { type: 'MIT', file: 'LICENSE' }
   spec.homepage = 'https://github.com/steamclock/bluejay'
