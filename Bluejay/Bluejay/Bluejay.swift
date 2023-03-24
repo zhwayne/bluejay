@@ -742,6 +742,17 @@ public class Bluejay: NSObject { //swiftlint:disable:this type_body_length
             throw BluejayError.notConnected
         }
     }
+ 
+    /// Ask for the peripheral's maximum payload length in bytes for a single write request.
+    public func maximumWriteValueLength(`for` writeType: CBCharacteristicWriteType) throws -> Int {
+        Dispatch.dispatchPrecondition(condition: .onQueue(.main))
+        
+        if let peripheral = connectedPeripheral {
+            return peripheral.maximumWriteValueLength(for: writeType)
+        } else {
+            throw BluejayError.notConnected
+        }
+    }
 
     // MARK: - Background Task
 
