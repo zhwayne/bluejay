@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Bluejay",
+    name: "BluejayKit",
     platforms: [
         .iOS(.v11),
     ],
     products: [
         .library(
-            name: "Bluejay",
+            name: "BluejayKit",
             targets: ["Bluejay"]),
     ],
     targets: [
